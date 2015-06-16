@@ -1,0 +1,154 @@
+/* ADD YOUR STYLES HERE */
+.center-div{
+	text-align: center;
+}
+
+.center-div img{
+	padding: 20px;
+}
+
+.inline-element{
+	display: inline-block;
+	padding: 20px;
+	vertical-align: text-top;
+}
+
+.vert-center{
+	height: 200px;
+	line-height: 200px;
+}
+
+.vert-center img{
+	vertical-align: middle;
+}
+
+.horiz-align{
+	display: inline-block;
+}
+
+.button{
+	display: inline-block;
+	color: white;
+	background-color: #ed828a;
+	border-radius: 3px;
+	text-decoration: none;
+	border: none;
+}
+.button-lg{
+	font-size: 30px;
+	padding: 20px 40px;
+}
+
+.button-md{
+	font-size: 20px;
+	padding: 10px 20px;
+}
+
+.button-sm{
+	font-size: 15px;
+	padding: 2.5px 5px;
+}
+
+.nav{
+	display: inline-block;
+	background-color: #ed828a;
+	border-radius: 3px;
+	text-align: center;
+	padding-left: 0;
+}
+
+.nav li {
+	margin: none;
+	display: inline-block;
+	background-color: #ed828a;
+}
+
+.nav li a{
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+
+.nav li:hover{
+	background-color: black;
+}
+
+.pagination li{
+	display: inline-block;
+	padding: 10px;
+}
+
+.pagination li a{
+	text-decoration: none;
+	color: #ed828a;
+	font-size: 16px;
+}
+
+.pag-element{
+	border-bottom: 2px solid #ed828a;
+}
+
+.pag-element.pagination-selected{
+	font-size: 16px;
+	color: #cccccc;
+	border-bottom: 2px solid #cccccc;
+	}
+
+.stream-container{
+	position: relative;
+}
+
+.stream-img{
+	float: left;
+}
+
+.stream-content{
+	padding-left: 10px;
+	display: block;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+
+.stream-content time{
+	font-size: 12px;
+	color: #ccc;
+}
+
+.tabbed{
+	display: inline-block;
+	background-color: white;
+	padding: 10px 20px;
+}
+
+.tabbed a{
+	text-decoration: none;
+	color: #1ab193;
+}
+
+.tabbed.selected{
+	background-color: #1ab193;
+	border-radius: 5px;
+}
+
+.tabbed.selected a{
+	color: white;
+}
+
+.tabbed-content{
+	background-color: #1ab193;
+	padding: 30px 15px 15px 15px;
+	color: white;
+	border-radius: 5px;
+	position: relative;
+	bottom: 5px;
+}
+
+.tabbed:hover, .tabbed:hover a{
+	background-color: #1ab193;
+	border-radius: 5px;
+	color: white;
+	border-top-lef
+}
+
